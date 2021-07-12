@@ -22,7 +22,45 @@ hr{
     margin-bottom: 27px;
 }
 
+/* Header with Navigation Bar */
+.header{
+    background-color: #562EFF;
+    display: grid;
+    grid-template-columns: repeat(2,1fr
+    );
+      
+}
 
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.logo img{
+    width: 40.42px;
+    height: 51px;
+    margin-left: 200px;   
+}
+
+.logo h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    justify-content: space-between;
+    text-decoration: none; 
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 40px;
+}
 
 /* top players style */
 .top-players{
